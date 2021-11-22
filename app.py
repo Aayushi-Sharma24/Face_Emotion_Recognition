@@ -8,7 +8,6 @@ import warnings
 warnings.filterwarnings("ignore")
 from keras.preprocessing.image import load_img, img_to_array 
 from keras.models import  load_model
-import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, RTCConfiguration, VideoProcessorBase, WebRtcMode
