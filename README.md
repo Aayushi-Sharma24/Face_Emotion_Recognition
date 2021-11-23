@@ -89,6 +89,6 @@ The training accuracy obtained from this model is 66.64% and validation accuracy
 For this project I have made a front end application using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. Therefore, used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to FaceEmotion function to detect the emotion. Then this model was deployed on heroku.
 
 ### Basic Requirements to deploy on heroku
-Procfile
-setup.sh
-requirements.txt 
+* Procfile
+* setup.sh
+* requirements.txt 
