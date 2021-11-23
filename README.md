@@ -5,8 +5,10 @@
 
 Emotion recognition is one of the many facial recognition technologies that have developed and grown through the years. Currently, facial emotion recognition software is used to allow a certain program to examine and process the expressions on a human’s face. 
 
-Deep learning is an AI facial recognition function that works like the human brain by processing data and developing patterns used for detecting objects and even in decision making. It is a subset of machine learning and artificial intelligence technology.
-Deep learning is based on Neural Net.
+What is the use and why it is important?
+Use of technology to help people with emotion recognition is a relatively nascent research area. Facial expressions are a form of nonverbal communication. Various studies have been done for the classification of these facial expressions. There is strong evidence for the universal facial expressions of seven emotions which include: neutral happy, sadness, anger, disgust, fear, and surprise. So it is very important to detect these emotions on the face as it has wide applications in the field of Computer Vision and Artificial Intelligence. These fields are researching on the facial emotions to get the sentiments of the humans automatically.
+
+<img src="Images/Picture1.png">
 
 ## Problem Statement
 The Indian education landscape has been undergoing rapid changes for the past 10 years owing to the advancement of web-based learning services, specifically, eLearning platforms.
@@ -31,6 +33,8 @@ The model is trained on the FER-2013 dataset .This dataset consists of 35887 gra
 ### Using DeepFace
 Deepface is a lightweight face recognition and facial attribute analysis (age, gender, emotion and race) framework for python. It is a hybrid face recognition framework wrapping state-of-the-art models: VGG-Face, Google FaceNet, OpenFace, Facebook DeepFace, DeepID, ArcFace and Dlib. Those models already reached and passed the human level accuracy. The library is mainly based on TensorFlow and Keras.
 
+<img src="Images/Picture2.png">
+
 ### Inference after using DeepFace
 Most of the emotions predicted by DeepFace model were incorrect.
 
@@ -46,11 +50,14 @@ same padding and maxpool layer of 2x2 filter of stride 2. It follows this arrang
 end it has 2 FC(fully connected layers) followed by a softmax for output. The 16 in VGG16 refers to it has 16 layers that have weights. This network is a pretty large network 
 and it has about 138 million (approx) parameters.
 
+
 2. ResNet-50
 
 ResNet-50 is a convolutional neural network that is 50 layers deep. You can load a pre-trained version of the network trained on more than a million images from the ImageNet 
 database. The pre-trained network can classify images into 1000 object categories, such as a keyboard, mouse, pencil, and many animals. As a result, the network has learned rich 
 feature representations for a wide range of images.
+
+<img src="Images/Picture3.png">
 
 ### Inference of ResNet-50
 The training and validation accuracy is 85.71% and training & validation loss also decreased below 1.80
@@ -61,9 +68,12 @@ After verifying from live video this model doesn't seem to work very well in rec
 Created a custom CNN model using Conv2D, MaxPooling, BatchNormalization, Dropout and Dense layers. Activation function used is "ReLU". Output layer has 7 nodes with activation function as "Softmax". Adam Optimizer is used in this model.
 Total params: 4,496,903
 
+<img src="Images/Picture4.png">
+
 The training accuracy obtained from this model is 66.64% and validation accuracy is 66.10% after 50 epochs. Model is performing good in live video feed.
 
 ### Loss and accuracy plot
+<img src="Images/Picture5.png">
 
 ## Dependencies
 * Python-3
