@@ -68,7 +68,7 @@ After verifying from live video this model doesn't seem to work very well in rec
 Created a custom CNN model using Conv2D, MaxPooling, BatchNormalization, Dropout and Dense layers. Activation function used is "ReLU". Output layer has 7 nodes with activation function as "Softmax". Adam Optimizer is used in this model.
 Total params: 4,496,903
 
-<img src="Images/Picture4.png">
+<img src="Images/Picture4.jpg">
 
 The training accuracy obtained from this model is 66.64% and validation accuracy is 66.10% after 50 epochs. Model is performing good in live video feed.
 
