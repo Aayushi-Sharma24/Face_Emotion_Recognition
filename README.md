@@ -27,6 +27,9 @@ can identify students who need special attention. Digital classrooms are conduct
 Because of this drawback, students are not focusing on content due to lack of surveillance.While digital platforms have limitations in terms of physical surveillance but it comes with the power of data and machines which can work for you. It provides data in the form of video, audio, and texts which can be analysed using deep learning algorithms. Deep learning backed system not only solves the surveillance issue, but it also removes the human bias from the system, and all information is no longer in the teacher’s brain rather translated in numbers that can be analysed and tracked.
 
 We will solve the above-mentioned challenge by applying deep learning algorithms to live video data. The solution to this problem is by recognizing facial emotions.
+
+Presentation link - https://github.com/Aayushi-Sharma24/Face_Emotion_Recognition/blob/main/Face_Emotion_Recognition-Presentation.pdf
+
 ## Dataset Information
 The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised. Here is the dataset link:- https://www.kaggle.com/msambare/fer2013
 
@@ -88,6 +91,8 @@ The training accuracy obtained from this model is 66.64% and validation accuracy
 
 For this project I have made a front end application using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. Therefore, used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to FaceEmotion function to detect the emotion. Then this model was deployed on heroku.
 
+Heroku Link - https://face-emotion-recognition-app.herokuapp.com/
+
 ### Basic Requirements to deploy on heroku
 * Procfile
 * setup.sh
@@ -99,5 +104,5 @@ Finally build a Face Emotion Recognition webapp using streamlit and deployed on 
 The model created with CNN layers gave training accuracy of 66.64% and validation accuracy of 66.10% after 50 epochs.
 
 Drawback- not classifying well on disgust images
-Link of Demo video(working in local) - 
+Link of Demo video(working in local) - https://github.com/Aayushi-Sharma24/Face_Emotion_Recognition/blob/main/Face_Emotion_recognition-Working_Demo.mp4
 
