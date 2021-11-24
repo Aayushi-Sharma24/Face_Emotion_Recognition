@@ -91,7 +91,7 @@ The training accuracy obtained from this model is 66.64% and validation accuracy
 
 For this project I have made a front end application using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. Therefore, used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to FaceEmotion function to detect the emotion. Then this model was deployed on heroku.
 
-Heroku Link - https://face-emotion-recognition-app.herokuapp.com/
+App Link deployed on Heroku- https://face-emotion-recognition-app.herokuapp.com/
 
 ### Basic Requirements to deploy on heroku
 * Procfile
@@ -103,6 +103,7 @@ Finally build a Face Emotion Recognition webapp using streamlit and deployed on 
 
 The model created with CNN layers gave training accuracy of 66.64% and validation accuracy of 66.10% after 50 epochs.
 
-Drawback- not classifying well on disgust images
+Drawback- not classifying well on disgust images.
+
 Link of Demo video(working in local) - https://github.com/Aayushi-Sharma24/Face_Emotion_Recognition/blob/main/Face_Emotion_recognition-Working_Demo.mp4
 
